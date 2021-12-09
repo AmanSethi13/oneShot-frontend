@@ -1,0 +1,42 @@
+.search {
+  display: flex;
+  flex-direction: row;
+}
+
+.name {
+  width: 50%;
+  padding-top: 10px;
+  margin-left: 10%;
+  padding-bottom: 10%;
+}
+
+.charts {
+  width: 60%;
+  height: 70%;
+  margin: auto;
+  padding-left: auto;
+  display: flex;
+  flex-direction: row;
+}
+.bar {
+  width: 70vh;
+  height: 50vh;
+  margin: 5%;
+  padding-left: 5%;
+}
+
+@media only screen and (max-width: 860px) {
+  .charts {
+    width: 50%;
+    /* height: 50%; */
+    margin: auto;
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .bar {
+    width: 70%;
+    height: 120%;
+    margin: 5%;
+  }
+}
